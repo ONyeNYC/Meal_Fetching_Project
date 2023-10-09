@@ -32,3 +32,11 @@ This project fetches random meals from an API and displays them in a grid layout
 - `index.html`: Contains the HTML structure
 - `style.css`: Contains the styling
 - `script.js`: Contains the JavaScript logic
+
+### HTML Structure
+
+The HTML file contains a main container with multiple grid items. Each grid item is a div element that will display a meal.
+
+### JavaScript Logic
+
+The JavaScript file uses the Fetch API to get random meals from 'https://www.themealdb.com/api/json/v1/1/random.php'. It ensures that each meal is unique by storing fetched meal IDs in an array.
